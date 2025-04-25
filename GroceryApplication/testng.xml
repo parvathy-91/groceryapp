@@ -1,0 +1,18 @@
+<suite name="my Test Suite">
+	<parameter name="browser" value="Chrome">
+	</parameter>
+	<listeners>
+		<listener class-name="listeners.Listeners"></listener>
+		<listener class-name="listeners.RetryListener"></listener>
+	</listeners>
+	<test name="my Test">
+		<classes>
+			<class name="testscripts.LoginTests" />
+			<class name="testscripts.AdminUserTest" />
+			<class name="testscripts.ManageCategoryTest" />
+			<class name="testscripts.ManageContactTest" />
+			<class name="testscripts.ManageNewsTest" />
+			<class name="testscripts.SubCategoryTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,22 @@
+<suite name="parallel testing" parallel="methods" thread-count="3">
+	<test name="test1" thread-count="5">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="testscripts.SubCategoryTest">
+				<methods>
+					<include name="verifySearchSubcategory" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test2" thread-count="5">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="testscripts.SubCategoryTest">
+				<methods>
+					<include name="verifySearchSubcategory" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

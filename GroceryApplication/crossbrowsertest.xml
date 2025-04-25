@@ -1,0 +1,26 @@
+<suite name="crossbrowser testing">
+	<test name="chrometest">
+		<parameter name="browser" value="Chrome">
+		</parameter>
+		<classes>
+			<class name="testscripts.SubCategoryTest">
+				<methods>
+					<include name="verifySearchSubcategory">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="edgetest">
+		<parameter name="browser" value="edge">
+		</parameter>
+		<classes>
+			<class name="testscripts.SubCategoryTest">
+				<methods>
+					<include name="verifySearchSubcategory">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
