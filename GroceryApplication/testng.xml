@@ -9,8 +9,8 @@
 		<classes>
 			<class name="testscripts.LoginTests" />
 			<class name="testscripts.AdminUserTest" />
-			<class name="testscripts.ManageCategoryTest" />
 			<class name="testscripts.ManageContactTest" />
+			<class name="testscripts.ManageCategoryTest" />
 			<class name="testscripts.ManageNewsTest" />
 			<class name="testscripts.SubCategoryTest" />
 		</classes>

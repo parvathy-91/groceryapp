@@ -8,13 +8,13 @@
   </listeners>
   <test thread-count="5" name="my Test(failed)">
     <classes>
-      <class name="testscripts.AdminUserTest">
+      <class name="testscripts.ManageContactTest">
         <methods>
-          <include name="verifySearchingExistingUser"/>
           <include name="initializeBrowserMethod"/>
+          <include name="verifyUserCanUpdateContactsOnManageContacts"/>
           <include name="driverQuit"/>
         </methods>
-      </class> <!-- testscripts.AdminUserTest -->
+      </class> <!-- testscripts.ManageContactTest -->
     </classes>
   </test> <!-- my Test(failed) -->
 </suite> <!-- Failed suite [my Test Suite] -->

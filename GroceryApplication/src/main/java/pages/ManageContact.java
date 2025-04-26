@@ -70,12 +70,12 @@ public class ManageContact {
 	public ManageContact updateOnDeliveryChargeLimitField() {
 		updateDeliveryChargeLimitField.clear();
 		updateDeliveryChargeLimitField.sendKeys("200");
-		page.scrollDownJavaScriptExecutor(driver);
 		return this;
 	}
 
 	public ManageContact updateButtonOnManageContacts() {
-		updateButton.click();
+		page.clickJavaScriptExecutor(updateButton, driver);
+	
 		return this;
 	}
 
